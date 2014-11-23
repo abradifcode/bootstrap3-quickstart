@@ -1,0 +1,64 @@
+#styleguide {
+	.navbar-default {
+		background-color: #fff;
+		.navbar-nav {
+			margin-top: 12px;
+			float: right;
+		}
+		.navbar-nav > li > a {
+			color: $brand-primary;
+			font-size: 16px;
+			padding: 15px 20px;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.colors {
+		.color-container {
+			margin-right: 20px;
+			float: left;
+			.color {
+				width: 100px;
+				height: 100px;
+				margin-bottom: 5px;
+				&.black {
+					background-color: $black;
+				}
+				&.gray-darker {
+					background-color: $gray-darker;
+				}
+				&.gray-dark {
+					background-color: $gray-dark;
+				}
+				&.gray {
+					background-color: $gray;
+				}
+				&.gray-light {
+					background-color: $gray-light;
+				}
+				&.gray-lighter {
+					background-color: $gray-lighter;
+				}
+				&.almost-white {
+					background-color: $almost-white;
+				}
+				&.brand-primary {
+					background-color: $brand-primary;
+				}
+				&.brand-success {
+					background-color: $brand-success;
+				}
+				&.brand-warning {
+					background-color: $brand-warning;
+				}
+				&.brand-danger {
+					background-color: $brand-danger;
+				}
+				&.brand-info {
+					background-color: $brand-info;
+				}
+			}
+		}
+	}
+}
